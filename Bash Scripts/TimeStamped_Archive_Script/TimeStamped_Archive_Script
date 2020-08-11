@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Archive the input file to a predetermined location
+
+# Check we have exactly 1 argument
+if [ $# -ne 1 ]
+then
+  echo "Usage: $0 FILE"
+  exit 1 # Quit the script, indicate an error to the shell
+fi
+
+# The archive location
+DATE=`date +%d-%m-%Y`
+archive=/home/pi/archives/$DATE
+
+# Make the destination if it does not already exist
+mkdir -p $archive
+
+# Copy the input file/directory
+rsync -avr $1 $archive
+
+exit 0 # Quit the script, indicate no error

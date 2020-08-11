@@ -1,0 +1,22 @@
+#!/bin/bash
+
+a=5
+b=2
+c=$(($a*$b)) # Multiply a and b and store result in c
+let c=a*b # Equivalent, nicer looking statement!
+echo "$a times $b is $c"
+
+if [ $a -gt $b ] # If a is greater than b (YES)
+then
+  echo "a greater than b"
+  let c=1
+else
+  echo "a less than or equal to b"
+  let c=5
+fi
+
+# Loop ten times (c less-than-or-equal-to)
+while [ $c -le 10 ]; do
+  echo Number $c
+  let c++ #equivalent to let c=c+1
+done
