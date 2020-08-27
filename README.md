@@ -1,5 +1,6 @@
+<img src="Images/raspberry%20pi%20logo.png" width="100">
 # albtronics/raspberrypi
 
-_"The Times When Hardware Meets Creativity !"_
+- ***"The Times When Hardware Meets Creativity !"***
 
-**For More Info Visit: https://albtronics.wordpress.com/**
+- **For More Info Visit: https://albtronics.wordpress.com/**
