@@ -1,4 +1,4 @@
-<img src="Images/raspberry%20pi%20logo.png" width="200">
+<img src="Images/raspberry%20pi%20logo.png" width="150">
 
 # albtronics/raspberrypi
 
